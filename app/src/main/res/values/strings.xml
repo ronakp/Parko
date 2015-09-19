@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Parko</string>
-
+    <string name="facebook_app_id">483573325147019</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>

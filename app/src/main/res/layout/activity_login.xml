@@ -67,9 +67,21 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
-        android:src="@drawable/inpac    tlogo"
+        android:src="@drawable/inpactlogo"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="25dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="3dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/registerButton" />
 
 </RelativeLayout>
